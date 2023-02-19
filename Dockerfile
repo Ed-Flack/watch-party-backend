@@ -12,5 +12,7 @@ RUN npm install
 
 EXPOSE 3000
 
+HEALTHCHECK NONE
+
 # Define the entry point for the container
 CMD ["npm", "start"]
