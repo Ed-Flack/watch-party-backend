@@ -5,7 +5,8 @@ const server = http.createServer(app)
 
 const io = require('socket.io')(server, {
     cors: {
-        origin: "https://master--melodic-snickerdoodle-9548dc.netlify.app",
+        origin: 'https://master--melodic-snickerdoodle-9548dc.netlify.app',
+        // origin: 'http://localhost:3000',
         methods: ['GET', 'POST']
     }
 });
